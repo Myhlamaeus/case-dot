@@ -1,4 +1,4 @@
-case-dot
+case-dot [![Code Climate](https://codeclimate.com/github/ileri/case-dot/badges/gpa.svg)](https://codeclimate.com/github/ileri/case-dot) [![Build Status](https://travis-ci.org/ileri/case-dot.svg)](https://travis-ci.org/ileri/case-dot)
 ==============
 > Parse and stringify strings delimited by a dot
 
