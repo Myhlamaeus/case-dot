@@ -1,3 +1,3 @@
-import CaseSeparated from "case-separated";
+import CaseSeparated from 'case-separated'
 
-export default new CaseSeparated(".");
+export default new CaseSeparated('.')
