@@ -2,26 +2,10 @@
   "name": "case-dot",
   "description": "Parse and stringify strings delimited by a dot",
   "version": "0.1.1",
-  "main": "dist/case-dot.js",
-  "scripts": {
-    "prepublish": "gulp build",
-    "test": "standard && gulp test"
-  },
-  "keywords": [
-    "case",
-    "dot",
-    "dotcase"
-  ],
   "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ileri/case-dot.git"
-  },
   "bugs": {
     "url": "https://github.com/ileri/case-dot/issues"
   },
-  "homepage": "https://github.com/ileri/case-dot",
   "dependencies": {
     "case-separated": "^0.2.0"
   },
@@ -31,5 +15,21 @@
     "gulp-babel": "^5.1.0",
     "gulp-mocha": "^2.0.1",
     "gulp-sourcemaps": "^1.5.2"
+  },
+  "homepage": "https://github.com/ileri/case-dot",
+  "keywords": [
+    "case",
+    "dot",
+    "dotcase"
+  ],
+  "license": "MIT",
+  "main": "dist/case-dot.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/case-dot.git"
+  },
+  "scripts": {
+    "prepublish": "gulp build",
+    "test": "standard && gulp test"
   }
 }
