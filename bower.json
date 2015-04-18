@@ -1,0 +1,26 @@
+{
+  "name": "case-dot",
+  "description": "Parse and stringify strings delimited by a dot",
+  "main": "case-dot.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/ileri/case-dot",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "case",
+    "dot",
+    "dotcase"
+  ]
+}
