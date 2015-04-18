@@ -1,5 +1,5 @@
-var caseDot = require("../case-dot"),
-    assert = require("assert");
+import caseDot from "../case-dot";
+import assert from "assert";
 
 describe("case-dot", function() {
     var tests = [

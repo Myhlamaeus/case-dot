@@ -1,3 +1,3 @@
-var CaseSeparated = require("case-separated");
+import CaseSeparated from "case-separated";
 
-module.exports = new CaseSeparated(".");
+export default new CaseSeparated(".");
