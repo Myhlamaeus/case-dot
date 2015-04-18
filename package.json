@@ -2,9 +2,10 @@
   "name": "case-dot",
   "description": "Parse and stringify strings delimited by a dot",
   "version": "0.1.1",
-  "main": "case-dot.js",
+  "main": "dist/case-dot.js",
   "scripts": {
-    "test": "grunt test"
+    "prepublish": "gulp build",
+    "test": "gulp test"
   },
   "keywords": [
     "case",
@@ -26,13 +27,9 @@
   },
   "devDependencies": {
     "babel": "^5.1.10",
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-test": "^0.12.7",
-    "jshint-stylish": "^1.0.0",
-    "load-grunt-tasks": "^3.0.0",
-    "mocha": "^2.1.0",
-    "time-grunt": "^1.0.0"
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2"
   }
 }

@@ -30,3 +30,6 @@ bower_components
 
 # tests
 errors.txt
+
+dist
+maps
