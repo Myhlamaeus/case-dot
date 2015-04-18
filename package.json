@@ -7,7 +7,7 @@
     "url": "https://github.com/ileri/case-dot/issues"
   },
   "dependencies": {
-    "case-separated": "^0.2.0"
+    "case-separated": "^0.2.2"
   },
   "devDependencies": {
     "babel": "^5.1.10",
