@@ -1,6 +1,6 @@
 {
   "name": "case-dot",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Parse and stringify strings delimited by a dot",
   "homepage": "https://github.com/Myhlamaeus/case-dot",
   "author": {
