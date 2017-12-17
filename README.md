@@ -1,27 +1,40 @@
-case-dot [![Code Climate](https://codeclimate.com/github/ileri/case-dot/badges/gpa.svg)](https://codeclimate.com/github/ileri/case-dot) [![Build Status](https://travis-ci.org/ileri/case-dot.svg)](https://travis-ci.org/ileri/case-dot) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard
-==============
+# case-dot [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
 > Parse and stringify strings delimited by a dot
 
-Install
---------------
-```
+## Installation
+
+```sh
 $ npm install --save case-dot
 ```
 
-Usage
---------------
+## Usage
+
 ```js
-var caseDot = require('case-dot')
+const caseDot = require("case-dot");
 
-// parse
-caseDot.parse('this.is.an.example') // ['this', 'is', 'an', 'example']
+// Parse
+caseDot.parse("this.is.an.example"); // ['this', 'is', 'an', 'example']
 
-// stringify
-caseDot.stringify(['this', 'is', 'an', 'example']) // 'this.is.an.example'
+// Stringify
+caseDot.stringify(["this", "is", "an", "example"]); // 'this.is.an.example'
 
-// check
-caseDot.is('this.is.an.example') // true
-caseDot.is('this_is_an_example') // false
-caseDot.is('thisIsAnExample') // false
-caseDot.is('this') // false
+// Check
+caseDot.is("this.is.an.example"); // True
+caseDot.is("this_is_an_example"); // False
+caseDot.is("thisIsAnExample"); // False
+caseDot.is("this"); // False
 ```
+
+## License
+
+MIT © [Malte-Maurice Dreyer](https://github.com/Myhlamaeus)
+
+[npm-image]: https://badge.fury.io/js/case-dot.svg
+[npm-url]: https://npmjs.org/package/case-dot
+[travis-image]: https://travis-ci.org/Myhlamaeus/case-dot.svg?branch=master
+[travis-url]: https://travis-ci.org/Myhlamaeus/case-dot
+[daviddm-image]: https://david-dm.org/Myhlamaeus/case-dot.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Myhlamaeus/case-dot
+[coveralls-image]: https://coveralls.io/repos/Myhlamaeus/case-dot/badge.svg
+[coveralls-url]: https://coveralls.io/r/Myhlamaeus/case-dot
